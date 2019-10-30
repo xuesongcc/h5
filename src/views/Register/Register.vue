@@ -312,7 +312,7 @@
                     <!--                    <span @click="_go('/forget')">忘记密码? &gt;</span>-->
                     <div class="read">
                         <input id="read" type="radio" v-model="read" value="1">
-                        <label @click="_showAgreement">我已认真阅读以上规则,同意加入艾亚游平台.</label>
+                        <label @click="_showAgreement">我已认真阅读以上规则,同意加入xxx平台.</label>
                     </div>
                 </div>
                 <div class="submit" @click="_sendBeforeCheck">立即注册</div>
