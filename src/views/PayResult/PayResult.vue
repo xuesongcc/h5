@@ -70,7 +70,7 @@
             },
             /**
              * @Description: 查询订单详情
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/5
             */
             getOrderInfo(){
@@ -95,7 +95,7 @@
             },
             /**
              * @Description: 返回首页
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/5
              */
             e_gopage() {

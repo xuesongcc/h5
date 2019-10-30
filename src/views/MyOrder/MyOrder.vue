@@ -59,7 +59,7 @@
         methods: {
             /**
              * @Description: 获取跳转到页面携带的参数
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/7
              */
             checkType() {
@@ -69,7 +69,7 @@
             },
             /**
              * @Description: 获取交易详情
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/9
              */
             getInfo() {
@@ -101,7 +101,7 @@
             },
             /**
              * @Description: 返回路径
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/7
              */
             pageGo() {
@@ -114,7 +114,7 @@
             },
             /**
              * @Description: 上传凭证
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/7
              */
             uploadFile() {
@@ -122,7 +122,7 @@
             },
             /**
              * @Description: 拍照上传
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/8
              */
             e_photo() {
@@ -136,7 +136,7 @@
             },
             /**
              * @Description: 相册上传
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/8
              */
             uploadByAlbum() {
@@ -168,7 +168,7 @@
             },
             /**
              * @Description: 暴露给安卓调用方法返回页面base64图片信息
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/8
              */
             wave2(str, base64) {
@@ -178,7 +178,7 @@
             },
             /**
              * @Description: 上传图片到OSS
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/9
              */
             async uploadImage(event) {
@@ -189,7 +189,7 @@
 
             /**
              * @Description: 关闭密码框
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/4/8
              */
             closeModal1() {
@@ -198,7 +198,7 @@
 
             /**
              * @Description: 买家上传完凭证 输入完密码 操作订单
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/4/8
              */
             econfirmModal1(pwd) {
@@ -221,7 +221,7 @@
 
             /**
              * @Description: 买家上传凭证 点击确定
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/9
              */
             doUpload() {
@@ -229,7 +229,7 @@
             },
             /**
              * @Description: 取消上传
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/7
              */
             e_cancelUp() {
@@ -237,7 +237,7 @@
             },
             /**
              * @Description: 查看凭证
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/8
              */
             goshow(v) {
@@ -246,7 +246,7 @@
             },
             /**
              * @Description: 关闭凭证查看
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/8
              */
             e_closeShowImg() {
@@ -255,7 +255,7 @@
 
             /**
              * @Description: 关闭假图投诉
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/4/8
             */
             closeModal2(){
@@ -263,7 +263,7 @@
             },
             /**
              * @Description: 假图投诉
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/9
              */
             jiatu() {
@@ -276,7 +276,7 @@
 
             /**
              * @Description: 卖家输入完密码 投诉假截图
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/4/8
             */
             econfirmModal2(pwd){
@@ -305,7 +305,7 @@
 
             /**
              * @Description: 关闭完成订单 输入交易密码
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/4/8
             */
             closeModal3(){
@@ -314,7 +314,7 @@
 
             /**
              * @Description: 完成订单
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/9
              */
             overOrder() {
@@ -328,7 +328,7 @@
 
             /**
              * @Description: 卖家完成订单 输入完成交易密码
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/4/8
             */
             econfirmModal3(pwd){

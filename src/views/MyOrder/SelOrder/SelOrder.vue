@@ -38,7 +38,7 @@
         methods: {
             /**
              * @Description: 假图投诉
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/7
              */
             e_jiatu() {
@@ -46,7 +46,7 @@
             },
             /**
              * @Description: 完成订单
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/9
             */
             e_overOrder(){

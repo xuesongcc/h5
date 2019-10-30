@@ -27,7 +27,7 @@
         methods: {
             /**
              * @Description: 上传凭证
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/7
              */
             e_upload() {
@@ -36,7 +36,7 @@
             },
             /**
              * @Description: 放大查看img
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/8
             */
             e_goShow(){
@@ -44,7 +44,7 @@
             },
             /**
              * @Description: 查看支付宝收款码
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/12
             */
             e_showAli(){
@@ -55,7 +55,7 @@
             },
             /**
              * @Description: 提交上传
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/9
             */
             e_doUpload(){

@@ -72,7 +72,7 @@
         methods: {
             /**
              * @Description 获取地址链接token 和 userid  为了应对安卓的调用
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/4/28
              */
             async getUrlToken() {

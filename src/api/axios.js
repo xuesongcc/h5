@@ -123,7 +123,7 @@ let get = (url) => {
 
 /**
  * @Description: 定义 header timestamp 参数
- * @author 焦政
+ * @author 李雪松
  * @date 2019/4/7
  */
 function getTimerTamo() {
@@ -132,7 +132,7 @@ function getTimerTamo() {
 
 /**
  * @Description: sign加密
- * @author 焦政
+ * @author 李雪松
  * @date 2019/4/7
  */
 function getSingStr(data, url) {

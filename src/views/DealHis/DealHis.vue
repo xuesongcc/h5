@@ -53,7 +53,7 @@
         methods: {
             /**
              * @Description: 返回买鱼 卖鱼
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/7
              */
             pageGo() {
@@ -61,7 +61,7 @@
             },
             /**
              * @Description: 买鱼列表 卖鱼列表区分
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/7
              */
             checkTypeList() {
@@ -74,7 +74,7 @@
             },
             /**
              * @Description: 选择一个订单状态
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/7
              */
             e_changeType(v) {
@@ -86,7 +86,7 @@
             },
             /**
              * @Description: 获取订单列表
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/7
              */
             getOrderList() {
@@ -122,7 +122,7 @@
             },
             /**
              * @Description: 跳转取订单列表
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/7
              */
             e_goorder(v) {

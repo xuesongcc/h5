@@ -131,7 +131,7 @@
         methods: {
             /**
              * @Description 下载APP
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/4/13
              */
             e_goDownApp(p){
@@ -139,7 +139,7 @@
             },
             /**
              * @Description: 选择登录方式
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/4
              */
             e_selectType(t) {
@@ -153,7 +153,7 @@
             },
             /**
              * @Description: 跳转注册页 忘记密码页
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/4
              */
             e_goPage(p) {
@@ -162,7 +162,7 @@
 
             /**
              * @Description: 发送短信验证码
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/4
              */
             e_sendSMS() {
@@ -211,7 +211,7 @@
             },
             /**
              * @Description: 登录按钮
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/4
              */
             e_login() {
@@ -291,7 +291,7 @@
             },
             /**
              * @Description: 是否冻结判断
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/6
              */
             checkBlock(response) {
@@ -307,7 +307,7 @@
             },
             /**
              * @Description: 登录成功存储用户数据
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/4
              */
             saveLocal(re) {
@@ -328,7 +328,7 @@
             },
             /**
              * @Description: 关闭弹框
-             * @author 焦政
+             * @author 李雪松
              * @date 2019/3/6
              */
             e_closeBox() {

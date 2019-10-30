@@ -1,8 +1,8 @@
 /*
 * @Author: xuesong
 * @Date: 2019-09-04 10:18:18
- * @Last Modified by: xuesong
- * @Last Modified time: 2019-09-11 15:09:28
+ * @Last Modified by: 
+ * @Last Modified time: 2019-10-30 19:24:24
 */
 <template>
   <div class="wrap">
@@ -390,7 +390,7 @@ export default {
       this.startCityVisible = false;
     },
     /**
-     * @author 焦政
+     * @author 李雪松
      * @Description: 校验数组是否有重复数据
      */
     isRepeat(arr) {
