@@ -1,0 +1,149 @@
+.foundation{
+    width: 100%;
+    height: 100%;
+    .found_top{
+        width: 100%;
+        height: rem(483);
+        @include bgIcon('bg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        .top_tile{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-top: rem(26);
+            .backicon{
+                width: rem(20);
+                height: rem(36);
+                display: inline-block;
+                margin-left: rem(24);
+            }
+            .backTile{
+                font-size:rem(32);
+                font-family:PingFang SC;
+                font-weight:500;
+                color:rgba(255,255,255,1);
+                display: inline-block;
+                margin-left: rem(249);
+            }
+        }
+        .jijinVal{
+            font-size:rem(36);
+            font-family:PingFang SC;
+            font-weight:bold;
+            color:rgba(255,255,255,1);
+            position: absolute;
+            left: rem(329);
+            top: rem(331);
+        }
+        .cardArea{
+            padding:0 rem(23);
+            position: absolute;
+            bottom: rem(-152);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .cardBgi{
+                width: rem(340);
+                height: rem(226);
+                &:first-child{
+                    margin-right: rem(24);
+                }
+            }
+        }
+    }
+    .found_listarea{
+        padding: 0 rem(23);
+        margin-top: rem(176);
+        .list_container{
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            .container_top{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                .typeList{
+                    width: rem(177);
+                    height: rem(48);
+                    border:2px solid rgba(5,214,204,1);
+                    border-radius:8px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: rem(32);
+                    span{
+                        font-size:rem(26);
+                        font-family:PingFang SC;
+                        font-weight:500;
+                        color:rgba(5,214,204,1);
+                    }
+                    &.activeType{
+                        background-color: #05D6CC;
+                        span{
+                            color:rgba(255,255,255,1);
+                        }
+                    }
+                }
+            }
+            .list{
+                padding: 0 rem(23);
+                padding-top: rem(32);
+                padding-bottom: rem(36);
+                border-bottom: 1px solid #F2F2F2;
+                .list_top{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    .orderNo{
+                        font-size:rem(24);
+                        font-family:PingFang SC;
+                        font-weight:500;
+                        color:rgba(153,153,153,1);
+                    }
+                    .ordetTime{
+                        font-size:rem(22);
+                        font-family:PingFang SC;
+                        font-weight:500;
+                        color:rgba(204,204,204,1);
+                    }
+                }
+                .list_bottom{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: rem(85);
+                    .ordetMoney{
+                        font-size:rem(28);
+                        font-family:PingFang SC;
+                        font-weight:500;
+                        color:rgba(84,94,112,1);
+                        .moneynumber{
+                            color: #FF4200;
+                        }
+                    }
+                    .typeBtn{
+                        width:rem(108);
+                        height:rem(36);
+                        border:1px solid rgba(153,153,153,1);
+                        border-radius:rem(18);
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+                        font-size:rem(24);
+                        font-family:PingFang SC;
+                        font-weight:500;
+                        color:rgba(153,153,153,1);
+                    }
+                }
+            }
+        }
+    }
+}

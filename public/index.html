@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>艾亚游</title>
+<!--    <script type="text/javascript" src="./cordova.js"></script>-->
+    <!-- 兼容IE浏览器 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+
+    <!-- 设置在苹果手机上以应用模式启动时，是否全屏 -->
+    <meta name='apple-touch-fullscreen' content='yes'>
+    <!-- ios 系统 作用未知 -->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!-- iso 系统 作用未知 -->
+    <meta content="fullscreen=yes,preventMove=no" name="ML-Config">
+    <!-- iso 系统 作用未知 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <!-- 是否识别 手机号码、 电子邮件 地址 等-->
+    <meta name="format-detection" content="telephone=no,email=no,address=no"/>
+
+    <!-- 让360双核浏览器用webkit内核渲染页面 -->
+    <meta name="renderer" content="webkit">
+
+    <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- 允许全屏模式浏览,隐藏浏览器导航栏 -->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <!--微信缓存-->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+      (function (doc, win) {
+        var docEle = doc.documentElement,
+            isIos = navigator.userAgent.match(/iphone|ipod|ipad/gi),
+            dpr = Math.min(win.devicePixelRatio, 3);
+        scale = 1 / dpr,
+
+            resizeEvent = 'orientationchange' in window ? 'orientationchange' : 'resize';
+
+        docEle.dataset.dpr = dpr;
+
+        var metaEle = doc.createElement('meta');
+        metaEle.name = 'viewport';
+        metaEle.content = 'initial-scale=' + scale + ',maximum-scale=' + scale;
+        docEle.firstElementChild.appendChild(metaEle);
+
+
+        var recalCulate = function () {
+          var width = docEle.clientWidth;
+          if (width / dpr > 640) {
+            width = 640 * dpr;
+          }
+          docEle.style.fontSize = 20 * (width / 750) + 'px';
+        };
+
+        recalCulate();
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvent, recalCulate, false);
+      })(document, window);
+    </script>
+    <script src="https://gosspublic.alicdn.com/aliyun-oss-sdk-4.4.4.min.js"></script>
+</head>
+<body>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>

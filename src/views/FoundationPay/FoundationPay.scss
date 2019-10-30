@@ -1,0 +1,93 @@
+.foundationPay{
+    width: 100%;
+    height: 100%;
+    margin-top: rem(90);
+    .dobty{
+        width: rem(150);
+        height: rem(50);
+        background-color: #1D9CCB;
+    }
+    .pay_top{
+        width: 100%;
+        height: rem(250);
+        background-color: #05D6CC;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .orderMoney{
+            font-size:rem(56);
+            font-family:PingFang SC;
+            font-weight:500;
+            color:rgba(255,255,255,1);
+            display: inline-block;
+            margin-top: rem(42);
+            margin-bottom: rem(35);
+        }
+        .moneyVal{
+            font-size:rem(56);
+            font-family:PingFang SC;
+            font-weight:500;
+            color:rgba(255,255,255,1);
+        }
+    }
+    .pay_typeArea{
+        padding: 0 rem(26);
+        .typeTile{
+            font-size:rem(28);
+            font-family:PingFang SC;
+            font-weight:500;
+            color:rgba(51,51,51,1);
+            display: inline-block;
+            margin-top: rem(54);
+        }
+        .payTypeList{
+            width: 100%;
+            background-color: white;
+            padding: rem(23) rem(24);
+            display: flex;
+            flex-direction: row;
+            .typeIcon{
+                width: rem(30);
+                height: rem(30);
+            }
+        }
+    }
+}
+.payBottom{
+    width: 100%;
+    height: rem(98);
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .botttom_right{
+        flex: 1;
+        text-align: right;
+        .rightTile{
+            font-size:rem(32);
+            font-family:PingFang SC;
+            font-weight:500;
+            color:rgba(102,102,102,1);
+            display: inline-block;
+            margin-right: rem(35);
+            .payMoney{
+                color: #FF5B6A;
+            }
+        }
+    }
+    .botttom_left{
+        width:rem(286);
+        height:rem(98);
+        background:rgba(5,214,204,1);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size:rem(32);
+        font-family:PingFang SC;
+        font-weight:500;
+        color:rgba(255,255,255,1);
+    }
+}

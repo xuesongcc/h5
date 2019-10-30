@@ -1,0 +1,37 @@
+// mintUI  ---popup
+.mint-popup{
+    position: absolute ;
+    z-index: 2009 ;
+    width: 100% ;
+    bottom: 0;
+    // bottom: 0% ;
+    background:#ffffff ;
+    border-radius: rem(30) rem(30) 0 0;
+  }
+  .mint-datetime .picker-toolbar{
+    height: 10vw;
+  }
+  .mint-datetime .picker-toolbar .mint-datetime-action{
+    font-size: rem(32) !important;
+    line-height: 10vw;
+
+
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    color: #888888;
+  }
+  .picker-slot {
+    font-size: 3vw !important;
+    overflow: hidden;
+    position: relative;
+    max-height: 100%;
+}
+
+.mint-switch{
+  zoom: 1.5;
+}
+.mint-switch-input:checked+.mint-switch-core {
+  border-color: #05D6CC !important;
+  background-color: #05D6CC !important;
+}

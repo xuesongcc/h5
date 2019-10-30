@@ -1,0 +1,7 @@
+//scss 函数
+@import "variables";
+
+/* px换算成rem函数 */
+@function rem($px) {
+  @return $px*750/$designWidth/20 + rem;
+}
